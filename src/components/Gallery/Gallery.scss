@@ -1,0 +1,49 @@
+.card-wrapper {
+  place-content: center;
+  justify-items: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  
+  grid-gap: 0.2rem;
+  padding-left: 1rem;
+  
+}
+
+.cardImage {
+  border-radius: 16px 16px 0px 0px;
+  width: 100%;
+  object-fit: cover;
+  max-height: max(10rem, 30vh);
+  aspect-ratio: 4/3;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 5px 10px rgba(27, 243, 7, 0.301);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0)
+}
+.card-info-name {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.card-info-data {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin: 5%;
+}
