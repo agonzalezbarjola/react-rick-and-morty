@@ -15,7 +15,7 @@ const Buscador = ({texto, setTexto}) => {
      return (
      <div className="buscador">
          <form onSubmit={handleSubmit}>
-             <input className="buscador-input" type="text" name ="buscar" placeholder="busca aquí..." value={texto} onChange={handleInputChange}
+             <input className="buscador-input" type="text" name ="buscar" placeholder="Busca aquí..." value={texto} onChange={handleInputChange}
              />
          </form>
          
